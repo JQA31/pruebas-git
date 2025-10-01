@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <link rel="stylesheet" href="./formularioHTML.css">
+        <title>Formulario de todo</title>
+    </head>
+    <body>
+        <form action="./formularioHTML.php" method="GET">
+            <label for="text">Nombre</label>
+            <input type="text" id="text" name="texto"></input>
+            <label for="number">Anio de nacimiento</label>
+            <input type="number" id="number" name="numero"></input>
+            <label for="radiobutton">Reciclas?</label>
+            <input type="radio" id="radiobutton" name="radio" value="si">Si</input>
+            <input type="radio" id="radiobutton" name="radio" value="no">No</input>
+            <label for="checkbox">Como contribuyes al medioambiente?</label>
+            <input type="checkbox" id="checkbox" name="checkbox[]" value="Reutilizando">Reutilizando
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</input>
+            <input type="checkbox" id="checkbox" name="checkbox[]" value="Ahorro agua">Ahorro agua</input><br/>
+            <input type="checkbox" id="checkbox" name="checkbox[]" value="Ahorro luz">Ahorro luz
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</input>
+            <input type="checkbox" id="checkbox" name="checkbox[]" value="Ahorro gas">Ahorro gas</input><br/>
+            <input type="checkbox" id="checkbox" name="checkbox[]" value="Uso energ. renovable">Uso energ. renovable</input><br/>
+            <input type="checkbox" id="checkbox" name="checkbox[]" value="Minimizo emisiones">Minimizo emisiones</input>
+            <button type="submit" name="Enviar">Enviar</button>
+        </form>
+    </body>
+</HTML>
